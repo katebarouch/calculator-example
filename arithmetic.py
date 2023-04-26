@@ -50,3 +50,13 @@ def mod(num1, num2):
     total = 0
     total = num1 % num2
     return total
+
+def add_mult(num1, num2, num3):
+    total = 0
+    total = (num1 + num2)* num3
+    return total
+
+def add_cubes(num1, num2):
+    total = 0
+    total = num1**3 + num2**3
+    return total
